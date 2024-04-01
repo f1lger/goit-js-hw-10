@@ -13,13 +13,10 @@ a {
   height: 40px;
 }
 fieldset {
-  border: #808080 1px solid;
+  border: #000000 1px solid;
   display: inline-flex;
   justify-content: space-evenly;
 }
-fieldset:active {
-  border: #000000 1px solid;
-} 
 button {
   background-color: #4e75ff;
   color: #ffffff;
@@ -28,5 +25,5 @@ button {
   padding: 8px 16px 8px 16px;
 }
 button:hover {
-  background-color: #6C8CFF;
+  background-color: #6c8cff;
 }
