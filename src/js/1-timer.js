@@ -6,6 +6,8 @@ import iziToast from 'izitoast';
 
 import 'izitoast/dist/css/iziToast.min.css';
 
+import iconDone from '../img/bi_x-octagon.svg'
+
 const input = document.querySelector('#datetime-picker');
 const startBtn = document.querySelector('button[data-start]');
 
@@ -65,6 +67,7 @@ const iziToastConfig = {
   titleColor: '#ffffff',
   messageColor: '#ffffff',
   iconColor: '#ffffff',
+  iconUrl: iconDone,
 };
 
 function convertMs(ms) {
