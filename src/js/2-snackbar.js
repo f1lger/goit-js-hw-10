@@ -17,8 +17,8 @@ form.addEventListener('submit', onFormSubmit);
 function promiseGenerator(isFulfilled, delay) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      if (isFulfilled) resolve();
-      else reject();
+      if (isFulfilled) resolve(delay);
+      else reject(delay);
     }, delay);
   });
 }
